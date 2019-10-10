@@ -1,0 +1,38 @@
+html{background-color: white;}
+body{
+  background-color: #050505;
+  color: #ff0080;
+  font-family: 'Georgia', serif;
+  margin: 2em;
+  padding: 0 3em 3em 5em;
+}
+ul.nav{
+  list-style-type: none;
+}
+header{}
+main{}
+article{}
+footer{}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Verdana', sans-serif;
+  color: yellow;
+}
+p{}
+ul, ol{
+  margin: 1em;
+}
+blockquote{
+  text-indent: 5em;
+  text-shadow: ;
+  font-style: italic;
+  color: #8c8281;
+  border-left: .5em solid #8c8281;
+  margin-left: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: .5em;
+}
+
+img{
+  width: 75px
+}
