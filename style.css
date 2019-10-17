@@ -1,7 +1,14 @@
 body {
-    background-color: #8581a0;
-    margin: 60px auto;
-    width: 70%;
+    margin-left: 5;
+}
+header{
+  padding: 1em;
+  background-color: #8581a0;
+  color: #ffffff;
+}
+header a{
+  text-decoration: none;
+    color: #ffffff;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -11,11 +18,12 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
+    color: #ffffff;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #555555;
 }
 a:hover {
     text-decoration: underline;
@@ -27,7 +35,10 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #000000;
+}
+img {
+  margin: 5px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -35,7 +46,7 @@ footer {
 }
 
 ul.posts {
-    margin: 20px auto 40px;
+    margin: 0px auto 40px;
     font-size: 1.5em;
 }
 
