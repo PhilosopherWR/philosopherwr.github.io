@@ -1,38 +1,44 @@
-html{background-color: white;}
-body{
-  background-color: #8581a0;
-  color: #ff0080;
-  font-family: 'Georgia', serif;
-  margin: 2em;
-  padding: 0 3em 3em 5em;
+body {
+    background-color: #8581a0;
+    margin: 60px auto;
+    width: 70%;
 }
-ul.nav{
-  list-style-type: none;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-header{}
-main{}
-article{}
-footer{}
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Verdana', sans-serif;
-  color: yellow;
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
-p{}
-ul, ol{
-  margin: 1em;
+a {
+    text-decoration: none;
+    color: #999;
 }
-blockquote{
-  text-indent: 5em;
-  text-shadow: ;
-  font-style: italic;
-  color: #8c8281;
-  border-left: .5em solid #8c8281;
-  margin-left: 5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-left: .5em;
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-img{
-  width: 75px
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
 }
