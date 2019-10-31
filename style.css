@@ -1,15 +1,16 @@
 body {
-    margin-left: 5;
-    background-color: #b9b7f6;
+    margin-left: 2;
+    background-color: #dfdddd;
+    font-size: 1;
 }
 header{
   padding: 1em;
-  background-color: #8581a0;
-  color: #ffffff;
+  background-color: #635070;
+  color: #dfdddd;
 }
 header a{
   text-decoration: none;
-    color: #ffffff;
+    color: #dfdddd;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -24,17 +25,19 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #555555;
+    color: #635070;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font
+
 }
 p {
-    font-size: 0.5em;
+    font-size: 1.2em;
     line-height: 1em;
     color: #000000;
 }
