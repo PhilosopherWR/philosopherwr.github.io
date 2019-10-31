@@ -33,7 +33,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1                                                                                                       em;
+    font-size: 0.5em;
     line-height: 1em;
     color: #000000;
 }
